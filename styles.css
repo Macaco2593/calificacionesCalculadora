@@ -1,0 +1,50 @@
+body{
+    background-color: #6eb8f5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+h1{
+    padding: 15px;
+}
+
+#materias{
+    padding-left: 15px;
+    width: 40%;
+}
+
+.ventanas{
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    width: 20%;
+    display: inline-block;
+    margin: 5px;
+}
+form input::placeholder{
+    width: 15em;
+    height: 2em;
+    padding: 0 5px;
+    margin: 0%;
+}
+form p{
+    font-size: small;
+    margin: auto;
+}
+p{
+    padding: 0 5px;
+}
+div input::placeholder{
+    padding: 0 5px;
+}
+div input{
+    width: 50%;
+}
+#submitCourse{
+    width: auto;
+}
